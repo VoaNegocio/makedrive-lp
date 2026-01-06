@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Header.jsx",
+    "path": "/Users/rosianecristinamazonideoliveira/Desktop/voa-negocio-digital/makedrive/makedrive-lp/src/components/Header.jsx",
+    "description": "Sticky header with glassmorphism and smooth scroll links."
+  },
+  {
+    "name": "Hero.jsx",
+    "path": "/Users/rosianecristinamazonideoliveira/Desktop/voa-negocio-digital/makedrive/makedrive-lp/src/components/Hero.jsx",
+    "description": "Dark theme hero section with 'Technical Blueprint' aesthetic and primary CTA."
+  },
+  {
+    "name": "Benefits.jsx",
+    "path": "/Users/rosianecristinamazonideoliveira/Desktop/voa-negocio-digital/makedrive/makedrive-lp/src/components/Benefits.jsx",
+    "description": "Grid layout benefits section with custom icons (Brain, Docs, People, Calendar)."
+  }
+]
