@@ -37,17 +37,7 @@ const Footer = () => {
                     <p className="text-slate-400 mb-6 max-w-sm">
                         A plataforma definitiva para gestão e compatibilização de projetos técnicos.
                     </p>
-                    <div className="flex gap-4">
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white">
-                            <Linkedin size={20} />
-                        </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white">
-                            <Instagram size={20} />
-                        </a>
-                        <a href="#" className="w-10 h-10 rounded-full bg-white/5 hover:bg-white/10 flex items-center justify-center transition-colors text-white">
-                            <Facebook size={20} />
-                        </a>
-                    </div>
+
                 </div>
 
                 <div>
