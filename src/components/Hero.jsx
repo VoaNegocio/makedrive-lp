@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, FileText, Layers, Share2 } from 'lucide-react';
+import WhatsAppButton from './WhatsAppButton';
 
 const Hero = () => {
     return (
@@ -30,14 +31,22 @@ const Hero = () => {
                     </p>
 
                     <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="#contato" className="btn-primary flex items-center justify-center gap-2 group">
-                            Quero organizar meus projetos
-                            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                        </a>
+                        <WhatsAppButton
+                            className="btn-primary flex items-center justify-center gap-2 group text-white"
+                            variant="primary"
+                            label={
+                                <>
+                                    Agendar Demo via WhatsApp
+                                    <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                                </>
+                            }
+                        />
                         <a href="#demo" className="px-8 py-3 rounded-lg border border-white/10 hover:border-white/30 text-white font-medium transition-all hover:bg-white/5 flex items-center justify-center">
                             Ver demonstração
                         </a>
                     </div>
+
+
 
                     <div className="pt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
                         <div className="flex -space-x-2">

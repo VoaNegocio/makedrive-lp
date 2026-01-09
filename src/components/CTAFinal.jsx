@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import WhatsAppButton from './WhatsAppButton';
 
 const CTAFinal = () => {
     return (
@@ -21,6 +22,10 @@ const CTAFinal = () => {
                         Quero organizar meus projetos
                         <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                     </a>
+                    <WhatsAppButton
+                        label="Falar com consultor"
+                        className="px-10 py-4 text-lg font-bold"
+                    />
                 </div>
 
                 <p className="mt-6 text-sm text-slate-500">

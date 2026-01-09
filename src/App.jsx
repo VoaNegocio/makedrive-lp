@@ -5,6 +5,7 @@ import Benefits from './components/Benefits';
 import SocialProof from './components/SocialProof';
 import CTAFinal from './components/CTAFinal';
 import Footer from './components/Footer';
+import FloatingWhatsApp from './components/FloatingWhatsApp';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       </main>
 
       <Footer />
+      <FloatingWhatsApp />
     </div>
   );
 }
