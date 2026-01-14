@@ -18,10 +18,7 @@ const CTAFinal = () => {
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <a href="#contato" className="btn-primary text-lg px-10 py-4 flex items-center justify-center gap-2 group shadow-xl shadow-brand-primary/25">
-                        Quero organizar meus projetos
-                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                    </a>
+
                     <WhatsAppButton
                         label="Falar com consultor"
                         className="px-10 py-4 text-lg font-bold"

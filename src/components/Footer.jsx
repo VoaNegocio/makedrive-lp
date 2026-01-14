@@ -9,8 +9,8 @@ const Footer = () => {
             <div className="container-custom mb-20">
                 <div className="bg-gradient-to-r from-brand-primary/10 to-transparent border border-brand-primary/20 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex items-center gap-6">
-                        <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center">
-                            <ShieldCheck className="w-8 h-8 text-brand-primary" />
+                        <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center">
+                            <img src="/makerpro-logo-para-fundo-escuro.png" alt="MakeDrive" className="w-20 h-auto object-contain" />
                         </div>
                         <div>
                             <p className="text-brand-primary font-bold tracking-wide uppercase text-sm mb-1">Powered by DRC Pro</p>
