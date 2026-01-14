@@ -31,8 +31,8 @@ const Hero = () => {
                     </p>
 
                     {/* Mobile Mockup */}
-                    <div className="lg:hidden relative w-full flex items-center justify-center perspective-1000 py-8">
-                        <div className="relative w-full max-w-[340px] sm:max-w-md transform rotate-y-[-6deg] rotate-x-[5deg] transition-all duration-700 animate-float">
+                    <div className="lg:hidden relative w-full flex items-center justify-center perspective-1000 pb-4 -mt-12">
+                        <div className="relative w-full max-w-[380px] sm:max-w-lg transform rotate-y-[-6deg] rotate-x-[5deg] transition-all duration-700 animate-float">
                             <img
                                 src="/mockup-macbook-software-makedrive-removebg-preview.png"
                                 alt="Plataforma MakerPro"
@@ -59,7 +59,7 @@ const Hero = () => {
 
 
 
-                    <div className="pt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
+                    <div className="pt-4 lg:pt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
                         <div className="flex -space-x-2">
                             {[1, 2, 3, 4].map(i => (
                                 <div key={i} className="w-8 h-8 rounded-full bg-slate-700 border-2 border-brand-dark flex items-center justify-center text-xs text-white font-bold">
@@ -73,7 +73,7 @@ const Hero = () => {
 
                 {/* Right Visual (Mockup) */}
                 <div className="hidden lg:flex relative h-[600px] items-center justify-center perspective-1000">
-                    <div className="relative w-full max-w-xl transform rotate-y-[-12deg] rotate-x-[5deg] hover:rotate-y-[-5deg] hover:rotate-x-[2deg] transition-all duration-700 group animate-float">
+                    <div className="relative w-full max-w-2xl transform rotate-y-[-12deg] rotate-x-[5deg] hover:rotate-y-[-5deg] hover:rotate-x-[2deg] transition-all duration-700 group animate-float">
                         <img
                             src="/mockup-macbook-software-makedrive-removebg-preview.png"
                             alt="Plataforma MakerPro"
