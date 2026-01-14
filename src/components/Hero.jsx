@@ -41,9 +41,7 @@ const Hero = () => {
                                 </>
                             }
                         />
-                        <a href="#demo" className="px-8 py-3 rounded-lg border border-white/10 hover:border-white/30 text-white font-medium transition-all hover:bg-white/5 flex items-center justify-center">
-                            Ver demonstração
-                        </a>
+
                     </div>
 
 

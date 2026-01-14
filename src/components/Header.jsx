@@ -29,7 +29,7 @@ const Header = () => {
                     {/* Logo */}
                     {/* Logo */}
                     <a href="#" className="flex items-center gap-2 group">
-                        <img src="/makerpro-logo-para-fundo-escuro.png" alt="MakeDrive" className="h-8 md:h-32 w-auto object-contain" />
+                        <img src="/makerpro-logo-para-fundo-escuro.png" alt="MakeDrive" className="h-8 md:h-32 w-auto object-contain transform scale-150 origin-left" />
                     </a>
 
                     {/* Desktop Nav */}
