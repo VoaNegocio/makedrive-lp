@@ -16,7 +16,7 @@ const Hero = () => {
             <div className="container-custom relative z-10 grid lg:grid-cols-2 gap-12 items-center">
                 {/* Left Content */}
                 <div className="space-y-8 text-center lg:text-left">
-                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-secondary text-xs font-semibold tracking-wide uppercase">
+                    <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-secondary text-xs font-semibold tracking-wide uppercase lg:mt-8">
                         <span className="w-2 h-2 rounded-full bg-brand-secondary animate-pulse"></span>
                         Gestão de Projetos Técnicos
                     </div>
