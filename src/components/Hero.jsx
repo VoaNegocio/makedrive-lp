@@ -35,7 +35,7 @@ const Hero = () => {
                         <div className="relative w-full max-w-[380px] sm:max-w-lg transform rotate-y-[-6deg] rotate-x-[5deg] transition-all duration-700 animate-float">
                             <img
                                 src="/mockup-macbook-software-makedrive-removebg-preview.png"
-                                alt="Plataforma MakerPro"
+                                alt="Plataforma MAKEPRO"
                                 className="w-full h-auto drop-shadow-2xl"
                             />
                             <div className="absolute -inset-10 bg-brand-primary/20 blur-3xl rounded-full opacity-60 -z-10"></div>
@@ -76,7 +76,7 @@ const Hero = () => {
                     <div className="relative w-full max-w-2xl transform rotate-y-[-12deg] rotate-x-[5deg] hover:rotate-y-[-5deg] hover:rotate-x-[2deg] transition-all duration-700 group animate-float">
                         <img
                             src="/mockup-macbook-software-makedrive-removebg-preview.png"
-                            alt="Plataforma MakerPro"
+                            alt="Plataforma MAKEPRO"
                             className="w-full h-auto drop-shadow-2xl"
                         />
 
