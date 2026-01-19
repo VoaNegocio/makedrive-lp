@@ -2,20 +2,30 @@
 <html lang="en">
 
 <head>
-  <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-5Q9XWXWH');</script>
+  <!-- Google Tag Manager (Deferred) -->
+  <script>
+    setTimeout(function () {
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || []; w[l].push({
+          'gtm.start':
+            new Date().getTime(), event: 'gtm.js'
+        }); var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+            'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-5Q9XWXWH');
+    }, 4000); // 4 seconds delay
+  </script>
   <!-- End Google Tag Manager -->
-  <!-- Font: Poppins -->
+
+  <!-- Font: Poppins (Async) -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet">
+  </noscript>
 
   <meta charset="UTF-8" />
   <link rel="icon" type="image/png" href="/makerpro-logo-para-fundo-claro.png" />
@@ -38,7 +48,56 @@
   <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5Q9XWXWH" height="0" width="0"
       style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
-  <div id="root"></div>
+  <div id="root">
+    <!-- App Shell (Critical Rendering Path) -->
+    <header className="hidden md:block fixed top-0 left-0 right-0 z-50 bg-transparent">
+      <div className="container-custom py-0">
+        <div className="flex items-center justify-between">
+          <a href="#" className="flex items-center gap-2 group">
+            <img src="/makerpro-logo-para-fundo-escuro.webp" alt="MAKEPRO"
+              className="h-32 w-auto object-contain transform scale-150 origin-left" width="128" height="128" />
+          </a>
+          <nav className="hidden md:flex items-center gap-8">
+            <a href="#beneficios" className="text-sm font-medium text-slate-300">Benefícios</a>
+            <a href="#prova-social" className="text-sm font-medium text-slate-300">Quem confia</a>
+            <a href="#sobre" className="text-sm font-medium text-slate-300">Sobre</a>
+            <a href="#contato"
+              className="px-5 py-2.5 bg-white/10 text-white text-sm font-semibold rounded-lg border border-white/10">Agendar
+              Demo</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <section className="relative min-h-[90vh] flex items-center pt-20 overflow-hidden">
+      <div className="absolute inset-0 bg-brand-dark z-0">
+        <div className="absolute inset-0 bg-tech-grid opacity-20"></div>
+      </div>
+      <div className="container-custom relative z-10 grid lg:grid-cols-2 gap-12 items-center">
+        <div className="space-y-8 text-center lg:text-left">
+          <div
+            className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-secondary text-xs font-semibold tracking-wide uppercase lg:mt-8">
+            Gestão de Projetos Técnicos
+          </div>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight text-white">
+            Tecnologia pensada para quem <span
+              className="text-transparent bg-clip-text bg-gradient-to-r from-brand-secondary to-brand-primary">coordena
+              projetos</span> e não pode perder prazos.
+          </h1>
+          <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto lg:mx-0">
+            Organize versões, compare plantas e centralize toda a comunicação do projeto — tudo em um único sistema.
+            Chega de planilhas e e-mails perdidos.
+          </p>
+        </div>
+        <div className="hidden lg:flex relative h-[600px] items-center justify-center perspective-1000">
+          <div className="relative w-full max-w-2xl transform rotate-y-[-12deg] rotate-x-[5deg]">
+            <img src="/mockup-macbook-software-makedrive-removebg-preview.webp" alt="Plataforma MAKEPRO"
+              className="w-full h-auto drop-shadow-2xl" width="666" height="374" fetchPriority="high" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 

@@ -34,9 +34,12 @@ const Hero = () => {
                     <div className="lg:hidden relative w-full flex items-center justify-center perspective-1000 pb-4 -mt-12">
                         <div className="relative w-full max-w-[380px] sm:max-w-lg transform rotate-y-[-6deg] rotate-x-[5deg] transition-all duration-700 animate-float">
                             <img
-                                src="/mockup-macbook-software-makedrive-removebg-preview.png"
+                                src="/mockup-macbook-software-makedrive-removebg-preview.webp"
                                 alt="Plataforma MAKEPRO"
                                 className="w-full h-auto drop-shadow-2xl"
+                                width="666"
+                                height="374"
+                                fetchPriority="high"
                             />
                             <div className="absolute -inset-10 bg-brand-primary/20 blur-3xl rounded-full opacity-60 -z-10"></div>
                         </div>
