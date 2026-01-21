@@ -3,11 +3,11 @@ import { Play } from 'lucide-react';
 
 const SocialProof = () => {
     const logos = [
-        { name: 'Prolux', src: '/logos-empresas/prolux-logo.png' },
-        { name: 'MAC', src: '/logos-empresas/logo-mac.jpg' },
-        { name: 'Vuny', src: '/logos-empresas/logo-vuny.png' },
-        { name: 'VFO', src: '/logos-empresas/vfo-logo.webp' },
-        { name: 'Fort', src: '/logos-empresas/fortrealestatemanagement_logo.jpeg' }
+        { name: 'Prolux', src: '/logos-empresas/logos-empresas/prolux-logo.png' },
+        { name: 'MAC', src: '/logos-empresas/logos-empresas/logo-mac.jpg' },
+        { name: 'Vuny', src: '/logos-empresas/logos-empresas/logo-vuny.png' },
+        { name: 'VFO', src: '/logos-empresas/logos-empresas/vfo-logo.webp' },
+        { name: 'Fort', src: '/logos-empresas/logos-empresas/fortrealestatemanagement_logo.jpeg' }
     ];
 
     return (

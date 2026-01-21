@@ -18,7 +18,7 @@ const Hero = () => {
                 <div className="space-y-8 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-secondary text-xs font-semibold tracking-wide uppercase lg:mt-8">
                         <span className="w-2 h-2 rounded-full bg-brand-secondary animate-pulse"></span>
-                        Gestão de Projetos Técnicos
+                        Gestão Eletrônica de Documentos (GED)
                     </div>
 
                     <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
@@ -26,15 +26,15 @@ const Hero = () => {
                     </h1>
 
                     <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto lg:mx-0">
-                        Organize versões, compare plantas e centralize toda a comunicação do projeto — tudo em um único sistema.
-                        Chega de planilhas e e-mails perdidos.
+                        Controle total de arquivos com nomenclatura automática, versionamento e visualizador integrado.
+                        Sincronize com Google e MS Drive, gerencie acessos e elimine o caos de pastas desorganizadas.
                     </p>
 
                     {/* Mobile Mockup */}
                     <div className="lg:hidden relative w-full flex items-center justify-center perspective-1000 pb-4 -mt-12">
                         <div className="relative w-full max-w-[380px] sm:max-w-lg transform rotate-y-[-6deg] rotate-x-[5deg] transition-all duration-700 animate-float">
                             <img
-                                src="/mockup-macbook-software-makedrive-removebg-preview.webp"
+                                src="/mockupdospnc-removebg-preview.png"
                                 alt="Plataforma MAKEPRO"
                                 className="w-full h-auto drop-shadow-2xl"
                                 width="666"
@@ -78,7 +78,7 @@ const Hero = () => {
                 <div className="hidden lg:flex relative h-[600px] items-center justify-center perspective-1000">
                     <div className="relative w-full max-w-2xl transform rotate-y-[-12deg] rotate-x-[5deg] hover:rotate-y-[-5deg] hover:rotate-x-[2deg] transition-all duration-700 group animate-float">
                         <img
-                            src="/mockup-macbook-software-makedrive-removebg-preview.png"
+                            src="/mockupdospnc-removebg-preview.png"
                             alt="Plataforma MAKEPRO"
                             className="w-full h-auto drop-shadow-2xl"
                         />

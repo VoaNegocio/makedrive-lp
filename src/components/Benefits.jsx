@@ -49,6 +49,47 @@ const Benefits = () => {
                     </p>
                 </div>
 
+                {/* New Feature Highlight Section: Comparador de Projetos */}
+                <div className="mb-16 md:mb-20 bg-white rounded-3xl p-8 md:p-12 border border-slate-100 shadow-xl overflow-hidden relative">
+                    <div className="grid lg:grid-cols-2 gap-12 items-center relative z-10">
+                        <div className="space-y-6">
+
+                            <h3 className="text-3xl md:text-4xl font-bold text-brand-dark">
+                                Comparador de Projetos
+                            </h3>
+                            <p className="text-lg text-slate-600 leading-relaxed">
+                                Comparação de projetos com sobreposição de plantas. Compare plantas da mesma disciplina ou de diferentes disciplinas.
+                                Ajuste cores, transparência, posição e escala. Crie apontamentos diretamente sobre as comparações feitas e salve suas
+                                sobreposições para compartilhar ou usar depois.
+                            </p>
+
+                        </div>
+
+                        <div className="relative">
+                            <div className="grid gap-4">
+                                <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200 transform hover:-translate-y-1 transition-transform duration-500">
+                                    <img
+                                        src="/imgs/COMPARADOR 1.png"
+                                        alt="Interface do Comparador de Projetos - Tela 1"
+                                        className="w-full h-auto object-cover"
+                                    />
+                                </div>
+                                <div className="rounded-xl overflow-hidden shadow-lg border border-slate-200 transform hover:-translate-y-1 transition-transform duration-500 md:ml-12 -mt-12 md:-mt-20 relative z-20">
+                                    <img
+                                        src="/imgs/COMPARADOR 2.png"
+                                        alt="Interface do Comparador de Projetos - Tela 2"
+                                        className="w-full h-auto object-cover"
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Decorative Elements */}
+                            <div className="absolute -top-10 -right-10 w-64 h-64 bg-brand-primary/5 rounded-full blur-3xl -z-10"></div>
+                            <div className="absolute -bottom-10 -left-10 w-64 h-64 bg-brand-secondary/5 rounded-full blur-3xl -z-10"></div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* Mobile: Horizontal Scroll | Desktop: Grid */}
                 <div
                     ref={scrollRef}
@@ -95,8 +136,8 @@ const Benefits = () => {
                                 }
                             }}
                             className={`h-2 rounded-full transition-all duration-300 ${activeIndex === index
-                                    ? 'w-8 bg-brand-primary'
-                                    : 'w-2 bg-slate-300'
+                                ? 'w-8 bg-brand-primary'
+                                : 'w-2 bg-slate-300'
                                 }`}
                             aria-label={`Ir para benefício ${index + 1}`}
                         />
