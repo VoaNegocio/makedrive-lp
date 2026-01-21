@@ -25,9 +25,7 @@ const CTAFinal = () => {
                     />
                 </div>
 
-                <p className="mt-6 text-sm text-slate-500">
-                    Sem compromisso. Teste gratuito de 14 dias disponível.
-                </p>
+
             </div>
         </section>
     );
