@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = ({
     phoneNumber = '5511947167827',
-    message = 'Olá! Gostaria de saber mais sobre o MakeDrive.',
+    message = 'Olá! Gostaria de saber mais sobre o MAKEPRO.',
     label = 'Falar no WhatsApp',
     className = '',
     variant = 'primary'

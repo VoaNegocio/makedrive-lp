@@ -18,16 +18,16 @@ const Hero = () => {
                 <div className="space-y-8 text-center lg:text-left">
                     <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-brand-primary/10 border border-brand-primary/20 text-brand-secondary text-xs font-semibold tracking-wide uppercase lg:mt-8">
                         <span className="w-2 h-2 rounded-full bg-brand-secondary animate-pulse"></span>
-                        Gestão Eletrônica de Documentos (GED)
+                        Sistema de controle e coordenação de desenvolvimento de projetos em um CDE
                     </div>
 
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight tracking-tight">
-                        Tecnologia pensada para quem <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-secondary to-brand-primary">coordena projetos</span> e não pode perder prazos.
+                    <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
+                        Gestão Eletrônica de Documentos integrada ao cronograma, entregáveis e compatibilização de projetos.
                     </h1>
 
-                    <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto lg:mx-0">
+                    <p className="text-base md:text-lg text-slate-400 max-w-2xl mx-auto lg:mx-0">
                         Controle total de arquivos com nomenclatura automática, versionamento e visualizador integrado.
-                        Sincronize com Google e MS Drive, gerencie acessos e elimine o caos de pastas desorganizadas.
+                        Sincronize com Drives externos (Google ou Microsoft), gerencie acessos e elimine o caos de pastas desorganizadas.
                     </p>
 
                     {/* Mobile Mockup */}

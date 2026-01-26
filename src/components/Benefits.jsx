@@ -87,7 +87,7 @@ const Benefits = () => {
                         Transforme o <span className="text-brand-primary">caos técnico</span> em fluxo organizado
                     </h2>
                     <p className="text-slate-600 text-lg">
-                        A MakeDrive elimina os gargalos que atrasam obras e geram prejuízos por falta de compatibilização.
+                        A MAKEPRO elimina os gargalos que atrasam obras e geram prejuízos por falta de compatibilização.
                     </p>
                 </div>
 

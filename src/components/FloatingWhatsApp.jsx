@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 const FloatingWhatsApp = () => {
     const phoneNumber = '5511947167827';
-    const message = 'Olá! Gostaria de saber mais sobre o MakeDrive.';
+    const message = 'Olá! Gostaria de saber mais sobre o MAKEPRO.';
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
     return (

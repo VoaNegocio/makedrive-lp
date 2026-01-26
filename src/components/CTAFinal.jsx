@@ -14,7 +14,7 @@ const CTAFinal = () => {
                     Pronto para organizar seus projetos do <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-secondary to-brand-primary">início ao fim?</span>
                 </h2>
                 <p className="text-xl text-slate-400 mb-10 max-w-2xl mx-auto">
-                    Agende uma demonstração gratuita e veja como a MakeDrive elimina o retrabalho na sua engenharia.
+                    Agende uma demonstração gratuita e veja como a MAKEPRO elimina o retrabalho na sua engenharia.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
