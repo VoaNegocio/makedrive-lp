@@ -10,14 +10,14 @@ const Footer = () => {
             <div className="container-custom mb-20">
                 <div className="bg-gradient-to-r from-brand-primary/10 to-transparent border border-brand-primary/20 rounded-2xl p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div className="flex items-center gap-6">
-                        <div className="w-24 h-24 bg-white/10 rounded-full flex items-center justify-center">
+                        <div className="w-24 h-24 bg-white/90 backdrop-blur-md rounded-full flex items-center justify-center">
                             <img src="/logos-empresas/logos-maker/makepro-logo-icon.png" alt="MAKEPRO" className="w-20 h-auto object-contain" width="80" height="80" />
                         </div>
                         <div>
-                            <p className="text-brand-primary font-bold tracking-wide uppercase text-sm mb-1">Powered by DRC Pro</p>
+                            <p className="text-brand-primary font-bold tracking-wide text-sm mb-1">Powered by DRCpro</p>
                             <h3 className="text-2xl font-bold text-white mb-2">Engenharia real, software real.</h3>
                             <p className="text-slate-400 max-w-md">
-                                A MAKEPRO nasceu dentro de uma empresa de engenharia com mais de 15 anos de experiência técnica.
+                                O MAKEPRO nasceu dentro de uma empresa de engenharia com mais de 15 anos de experiência técnica.
                             </p>
                         </div>
                     </div>
