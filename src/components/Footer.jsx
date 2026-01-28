@@ -30,8 +30,12 @@ const Footer = () => {
             </div>
 
             {/* Main Footer Content */}
-            <div className="container-custom grid md:grid-cols-4 gap-12 mb-12 border-b border-white/5 pb-12">
-                <div className="md:col-span-2 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="container-custom flex flex-col items-center mb-12 border-b border-white/5 pb-12">
+                <div className="flex flex-col items-center text-center">
+
+                    <div className="bg-white p-3 rounded-xl mb-6 shadow-lg shadow-brand-primary/10">
+                        <img src="/logos-empresas/logos-maker/makepro-logo-icon.png" alt="MAKEPRO" className="h-16 w-auto object-contain" />
+                    </div>
 
                     <p className="text-slate-400 mb-6 max-w-sm">
                         A plataforma definitiva para gestão e compatibilização de projetos técnicos.
@@ -42,10 +46,6 @@ const Footer = () => {
                     />
 
                 </div>
-
-
-
-
             </div>
 
             <div className="container-custom text-center text-slate-600 text-sm">
