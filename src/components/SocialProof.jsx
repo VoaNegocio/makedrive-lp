@@ -55,9 +55,7 @@ const SocialProof = () => {
         <section id="prova-social" className="py-20 bg-white border-t border-slate-100">
             <div className="container-custom">
                 <div className="text-center mb-12">
-                    <p className="text-sm font-bold text-slate-500 uppercase tracking-widest mb-4">
-                        MAIS DE 3.000.000 m² PROJETADOS
-                    </p>
+
                     <h2 className="text-2xl md:text-3xl font-bold text-brand-dark">
                         Empresas que confiam na nossa tecnologia
                     </h2>
