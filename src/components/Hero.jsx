@@ -62,16 +62,7 @@ const Hero = () => {
 
 
 
-                    <div className="pt-4 lg:pt-8 flex items-center justify-center lg:justify-start gap-4 text-sm text-slate-500">
-                        <div className="flex -space-x-2">
-                            {[1, 2, 3, 4].map(i => (
-                                <div key={i} className="w-8 h-8 rounded-full bg-slate-700 border-2 border-brand-dark flex items-center justify-center text-xs text-white font-bold">
-                                    {['DK', 'JP', 'OA', 'MA'][i - 1]}
-                                </div>
-                            ))}
-                        </div>
-                        <p>Usado por equipes de engenharia de alta performance</p>
-                    </div>
+
                 </div>
 
                 {/* Right Visual (Mockup) */}
